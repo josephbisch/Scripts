@@ -19,7 +19,7 @@ date=$(date "+%F")
 backupwhat=WHAT_TO_BACKUP
 googledrive=GOOGLE_DRIVE_DIRECTORY/$pc-$type-$date.tgz
 onedrive=ONE_DRIVE_DIRECTORY/$pc-$type-$date.tgz
-tempftp=/Users/robertschmicker/Temp_Documents/$pc-$type-$date.tgz
+tempftp=$HOME/Temp_Documents/$pc-$type-$date.tgz
 #################################################################
 
 tar -cZf "$googledrive" $backupwhat
